@@ -39,15 +39,18 @@ public class EJ1 : MonoBehaviour
         }
         else if (monedaElegida == "D")
         {
-            Debug.Log(montoaConvertir + " pesos equivalen a " + montoaConvertir / 112 + " " + monedaElegida);
+            cantidadConvertida = montoaConvertir / 112;
+            Debug.Log(montoaConvertir + " pesos equivalen a " + cantidadConvertida + " " + monedaElegida);
         }
         else if (monedaElegida == "E")
         {
-            Debug.Log(montoaConvertir + " pesos equivalen a " + montoaConvertir / 122 + " " + monedaElegida);
+            cantidadConvertida = montoaConvertir / 122;
+            Debug.Log(montoaConvertir + " pesos equivalen a " + cantidadConvertida + " " + monedaElegida);
         }
         else if (monedaElegida == "R")
         {
-            Debug.Log(montoaConvertir + " pesos equivalen a " + montoaConvertir / 23 + " " + monedaElegida);
+            cantidadConvertida = montoaConvertir / 23;
+            Debug.Log(montoaConvertir + " pesos equivalen a " + cantidadConvertida + " " + monedaElegida);
         }
     }
 

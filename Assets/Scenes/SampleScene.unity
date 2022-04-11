@@ -293,7 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   montoaConvertir: 10000
-  monedaElegida: 
+  monedaElegida: D
 --- !u!4 &1028776827
 Transform:
   m_ObjectHideFlags: 0
