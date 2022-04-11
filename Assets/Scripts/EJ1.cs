@@ -23,7 +23,7 @@ using UnityEngine;
 public class EJ1 : MonoBehaviour
 {
 
-    public int montoaConvertir;
+    public int montoAConvertir;
     public string monedaElegida;
     int cantidadConvertida;
 
@@ -33,24 +33,24 @@ public class EJ1 : MonoBehaviour
         {
             Debug.Log("Opción de moneda extranjera no válida");
         }
-        else if (montoaConvertir < 1000)
+        else if (montoAConvertir < 1000)
         {
             Debug.Log("El monto minimo es $1000");
         }
         else if (monedaElegida == "D")
         {
-            cantidadConvertida = montoaConvertir / 112;
-            Debug.Log(montoaConvertir + " pesos equivalen a " + cantidadConvertida + " " + monedaElegida);
+            cantidadConvertida = montoAConvertir / 112;
+            Debug.Log(montoAConvertir + " pesos equivalen a " + cantidadConvertida + " " + monedaElegida);
         }
         else if (monedaElegida == "E")
         {
-            cantidadConvertida = montoaConvertir / 122;
-            Debug.Log(montoaConvertir + " pesos equivalen a " + cantidadConvertida + " " + monedaElegida);
+            cantidadConvertida = montoAConvertir / 122;
+            Debug.Log(montoAConvertir + " pesos equivalen a " + cantidadConvertida + " " + monedaElegida);
         }
         else if (monedaElegida == "R")
         {
-            cantidadConvertida = montoaConvertir / 23;
-            Debug.Log(montoaConvertir + " pesos equivalen a " + cantidadConvertida + " " + monedaElegida);
+            cantidadConvertida = montoAConvertir / 23;
+            Debug.Log(montoAConvertir + " pesos equivalen a " + cantidadConvertida + " " + monedaElegida);
         }
     }
 
